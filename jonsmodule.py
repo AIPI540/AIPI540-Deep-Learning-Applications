@@ -6,6 +6,7 @@ class Student:
         self.grades=grades
 
     def add_grade(self,course,grade):
+      #testing
         self.grades[course]=grade
 
     def get_grades(self):
