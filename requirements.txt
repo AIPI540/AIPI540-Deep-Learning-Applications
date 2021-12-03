@@ -2,5 +2,5 @@ pandas
 sklearn
 matplotlib
 notebook
-pytorch
+torch
 seaborn
