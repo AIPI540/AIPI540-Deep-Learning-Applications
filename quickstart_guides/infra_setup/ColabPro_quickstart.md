@@ -103,14 +103,17 @@ The below steps provide a recommended workflow for a new project which will util
     ![](.img/colab_pushtogithub.png)
 
 ## Other Tips  
-1) 
+1) The GPU resources Colab provides are not unlimited.  Additionally, they prioritize access to those who have used less recently.  Therefore, you want to use GPU only when you need it, and avoid leaving it on when you are not using it.  A good practice is to use no hardware acceleration while you are coding, and only enable GPU when you are ready to run your code and train your model.  Be sure to then disable it afterward.  Additionally, remember to close your Colab broswer tabs when you are done work.
+
 2) Colab comes pre-installed with a number of data science packages, but you can also easily install additional libraries using pip install.  For example, to install and import the Cartopy package run the following.  Since Colab starts a new VM each time you open it, next time you work in Colab you will need to re-install the package on the VM.
     ```
     !pip install cartopy
     import cartopy
     ```
+
 3) You can also import your own classes and functions from Python scripts to use in your notebook run file.  To import contents from scripts you have already loaded into the Colab temporary storage (following the above instructions), run something like the following:
     ```
     from jons-custom-module import Jon
     ```
+    
 4) If you have made a mistake in loading files or importing modules, you can reset everything back to a fresh VM by clicking **Runtime** -> **Factory reset runtime**
