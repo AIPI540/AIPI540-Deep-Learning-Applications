@@ -234,9 +234,8 @@ The benefit of this option is that you are not charged credits for working time 
 ## Other Tips
 1) ### REMINDER: Make sure you stop your instances!
     Don't forget to stop your instance when you are done (by clicking on the stop button at the top of the page showing your instances). You can restart your instance and your saved files will still be available.
-The git extension for JupyterLab comes pre-installed and provides basic git functionality without going through the terminal.  On the left side of JupyterLab click the icon for "Extensions" and click "Enable".  You will then be able to use the git extension by clicking on its button on the left side.
 
-2) If you would like to open a Jupyter Notebook on your VM, after starting your VM you can run the following to open Jupyter Notebooks (rather than Jupyter Labs, which is described above):
+2) If you would like to open a Jupyter Notebook on your VM in your browser without going into JupyterLabs via the GCP site as per above, after starting your VM you can run the following to open Jupyter Notebooks:
 
     ```
     gcloud compute ssh --zone=<WRITE-ZONE> jupyter@<WRITE-VM-NAME> --project "<WRITE-PROJECT-NAME>" -- -L 8080:localhost:8080
@@ -261,6 +260,8 @@ The git extension for JupyterLab comes pre-installed and provides basic git func
             --metadata="install-nvidia-driver=True" \
             --preemptible
     ```
+
+3) The git extension for JupyterLab comes pre-installed and provides basic git functionality without going through the terminal.  On the left side of JupyterLab click the icon for "Extensions" and click "Enable".  You will then be able to use the git extension by clicking on its button on the left side.
 
 4) [This article](https://medium.com/google-cloud/using-google-cloud-ai-platform-notebooks-as-a-web-based-python-ide-e729e0dc6eed) by a Google MLE contains a number of additional recommendations for using JupyterLab on GCP as your cloud-based IDE for software development.  In particular be sure to check out Steps 3 - 7.
 
