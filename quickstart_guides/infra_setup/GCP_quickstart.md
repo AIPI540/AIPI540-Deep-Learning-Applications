@@ -96,7 +96,7 @@ NOTE: You should have created and logged in your GCP account registered with you
 
 ## Request an Increase in GPU Quota
 
-New GCP accounts do not come with quote to use GPUs. You have to explicitly request it in **IAM Admin** > **Quotas**. 
+New GCP accounts do not come with quota to use GPUs. You have to explicitly request it in **IAM Admin** > **Quotas**. 
 
 **Please request the quota increase ASAP**, because they will take between a couple minutes up to a week to process!  If you don't have GPU quota, you will have to create a CPU-only VM first and create another GPU VM instance later.
 
@@ -163,7 +163,7 @@ Your configuration sheet should look similar to below image.
 
 ## Access Your Newly Created VM via command line
 
-Now that you have created your VM, you want to be able to connect to it from your computer. The rest of this tutorial goes over how to do that using the command line. 
+Now that you have created your VM, you want to be able to connect to it from your computer. This section goes over how to do that using the command line. 
 
 ### Install gcloud command-line Tools
 To access [gcloud commands](https://cloud.google.com/sdk/docs/cheatsheet) in your local terminal, install [Google Cloud SDK](https://cloud.google.com/sdk/docs) that is appropriate for your platform and follow their instructions. 
