@@ -24,6 +24,7 @@ This tutorial includes portions from the GCP setup guide from [Stanford's CS231n
     3. [Work locally and sync via GitHub](#option-3-work-locally-and-sync-via-github)
 8. [Other Tips](#other-tips)
 9. [Further Training](#further-training)
+10. [Google Cloud Certifications](#google-cloud-certifications)
     
 
 ## Introduction
@@ -270,3 +271,16 @@ The benefit of this option is that you are not charged credits for working time 
 5) You can use [Tmux](https://linuxize.com/post/getting-started-with-tmux/) to keep the training sessions running when you close your laptop. Also, if your collaborators log into the same account on the VM instance, they will see the same tmux session screen in real time. 
 
 ## Further Training
+- [Introduction to Vertex AI video](https://www.youtube.com/watch?v=gT4qqHMiEpA
+)  
+    - Brief introductory video on Vertex AI
+- [Google Cloud Quest - Google Cloud Essentials](https://www.cloudskillsboost.google/quests/23)  
+    - 4hr Google training course on Cloud Essentials
+    - Highly recommend - covers most of the key functions we will be using in this course
+- [Google Cloud Quest - Baseline: Data, ML, AI](https://www.cloudskillsboost.google/quests/34)  
+    - Learn how to use Google's Vertex AI AutoML capabilities
+
+
+## Google Cloud Certifications
+- [Associate Cloud Engineer Certification](https://cloud.google.com/certification/cloud-engineer)  
+- [Professional ML Engineer](https://cloud.google.com/certification/machine-learning-engineer)
