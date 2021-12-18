@@ -23,6 +23,7 @@ This tutorial includes portions from the GCP setup guide from [Stanford's CS231n
     2. [Work in JupyterLab](#option-2-work-in-jupyterlab)
     3. [Work locally and sync via GitHub](#option-3-work-locally-and-sync-via-github)
 8. [Other Tips](#other-tips)
+9. [Further Training](#further-training)
     
 
 ## Introduction
@@ -268,3 +269,4 @@ The benefit of this option is that you are not charged credits for working time 
 
 5) You can use [Tmux](https://linuxize.com/post/getting-started-with-tmux/) to keep the training sessions running when you close your laptop. Also, if your collaborators log into the same account on the VM instance, they will see the same tmux session screen in real time. 
 
+## Further Training
