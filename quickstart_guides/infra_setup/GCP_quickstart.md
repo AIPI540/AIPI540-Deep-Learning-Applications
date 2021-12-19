@@ -168,7 +168,7 @@ Your configuration sheet should look similar to below image.
 Now that you have created your VM, you want to be able to connect to it from your computer. This section goes over how to do that using the command line. 
 
 ### Install gcloud command-line Tools
-To access [gcloud commands](https://cloud.google.com/sdk/docs/cheatsheet) in your local terminal, install [Google Cloud SDK](https://cloud.google.com/sdk/docs) that is appropriate for your platform and follow their instructions. 
+To access [gcloud commands](https://cloud.google.com/sdk/docs/cheatsheet) in your local terminal, install the [Google Cloud SDK](https://cloud.google.com/sdk/docs) that is appropriate for your platform and follow their instructions. 
 
 If `gcloud` command is not in your system path after installation, you can also reference it by its full path `/<DIRECTORY-WHERE-GOOGLE-CLOUD-IS-INSTALLED>/bin/gcloud`. See [this page](https://cloud.google.com/compute/docs/instances/connecting-to-instance "Title") for more detailed instructions.
 
@@ -222,14 +222,31 @@ You can develop your code on the remote server directly if you are comfortable w
 **If you chose to work using the VM, be aware that you will be charged credits for the time your VM is running - meaning while you are working, not just while you are training a model.**  Since you don't need GPU access while writing code, you may want to remove GPU from your VM before starting it while writing code, and then re-start and add GPU when ready to train your model in order to save credits.
 
 ### Option 2: Work in JupyterLab
-You can also work using your VM in JupyterLab, which provides access to run Jupyter Notebooks, a Python file editor, and terminal access.  To access JupyterLab / Jupyter Notebooks through the GCP site, click on the three bars at the top left and then select **Vertex AI** -> **Workbench**.  You should see your VM instance listed.  Start your instance if it is not already running.  Then, click the "Open Jupyterlab" blue link. If you see a warning sign to the left of your instance name on the page, you may need to click "Register All" at the top right to register your VM instance with Vertex AI's API before you can start JupyterLab.
+You can also work using your VM in JupyterLab, which provides access to run Jupyter Notebooks, a Python file editor, and terminal access.  There are two options to access JupyterLab on your VM:
 
-![](.img/open_jupyter.png)
+1) Acces JupyterLab via command line:
+    - First, start your instance on the GCP Console
+    - In your terminal, run the following:
+        ```
+        gcloud compute ssh --project <PROJECT-NAME> \
+        --zone=<ZONE> <INSTANCE-NAME> \
+        -- -L 8080:localhost:8080
+        ```
+        Be sure to replace <PROJECT-NAME>,<ZONE> and <INSTANCE-NAME> with your project, zone and instance.
+    - Then, in your browser go to https://localhost:8080/lab to open JupyterLab.  If it does not open, try restarting your browser and/or clear your cache.
+    - When done, be sure to stop your instance
+
+2) Access JupyterLab through the GCP site:  
+    - Click on the three bars at the top left and then select **Vertex AI** -> **Workbench**.  You should see your VM instance listed.  Click the "Open Jupyterlab" blue link - it will start your instance and open JupyterLab. If you see a warning sign to the left of your instance name on the page, you may need to click "Register All" at the top right to register your VM instance with Vertex AI's API before you can start JupyterLab.  Make sure to stop your instance when you are done work!
+
+        ![](.img/open_jupyter.png)
+
+Note that Jupyter opens from the path /home/jupyter.  You may need to cd from a terminal to access files which are stored elsewhere on your disk (e.g. in another directory under /home)
 
 **If you chose to work using the VM, be aware that you will be charged credits for the time your VM is running - meaning while you are working, not just while you are training a model.**  Since you don't need GPU access while writing code, you may want to remove GPU from your VM before starting it while writing code, and then re-start and add GPU when ready to train your model in order to save credits.
 
 ### Option 3: Work locally and sync via GitHub
-Alternatively, you can develop locally on your favorite editor, push to your repo on Github, and pull on the remote server using terminal or via JupyterLab (or copy the files to the remote server per the above instructions, but a better practice is to use GitHub for version control).
+Alternatively, you can develop locally on your favorite editor, push to your repo on Github, and pull on the remote server using terminal or via JupyterLab (or copy the files to the remote server per the above instructions, but a better practice is to use GitHub for version control).  Note that if you git clone them directly from the terminal (and not via JupyterLab's terminal), they will be stored in the path `/home/<git-username>`.  JupyterLab opens in the path `/home/jupyter` so you will need to cd up to find your files.  If you git clone them through JupyterLab's terminal they will copy into the `/home/jupyter` directory.
 
 The benefit of this option is that you are not charged credits for working time (until you need to train your model), or run the risk of forgetting to turn your instance off when you step away from my computer.  The downside of this is the extra step of syncing your work via GitHub to the VM, and also that you will not be able to train your model from your local development environment and will need to switch over to your VM to train when ready (assuming it requires GPU).  You may also not be able to access your data while developing, if it resides on GCP unless you maintain a local copy as well.
 
