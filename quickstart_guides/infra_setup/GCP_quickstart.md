@@ -282,10 +282,12 @@ The benefit of this option is that you are not charged credits for working time 
 
 3) The git extension for JupyterLab comes pre-installed and provides basic git functionality without going through the terminal.  On the left side of JupyterLab click the icon for "Extensions" and click "Enable".  You will then be able to use the git extension by clicking on its button on the left side.
 
-4) [This article](https://medium.com/google-cloud/using-google-cloud-ai-platform-notebooks-as-a-web-based-python-ide-e729e0dc6eed) by a Google MLE contains a number of additional recommendations for using JupyterLab on GCP as your cloud-based IDE for software development.  In particular be sure to check out Steps 3 - 7.
+4) Each time you try to push to GitHub from yoru VM, you will need to authenticate with your GitHub username and your [Personal Access Token]((https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).  If you don't want to have to do this every time, you can install the GitHub CLI on your VM using Conda and follow the instructions [here]((https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+
+5) [This article](https://medium.com/google-cloud/using-google-cloud-ai-platform-notebooks-as-a-web-based-python-ide-e729e0dc6eed) by a Google MLE contains a number of additional recommendations for using JupyterLab on GCP as your cloud-based IDE for software development.  In particular be sure to check out Steps 3 - 7.
 
 
-5) You can use [Tmux](https://linuxize.com/post/getting-started-with-tmux/) to keep the training sessions running when you close your laptop. Also, if your collaborators log into the same account on the VM instance, they will see the same tmux session screen in real time. 
+6) You can use [Tmux](https://linuxize.com/post/getting-started-with-tmux/) to keep the training sessions running when you close your laptop. Also, if your collaborators log into the same account on the VM instance, they will see the same tmux session screen in real time. 
 
 ## Further Training
 - [Introduction to Vertex AI video](https://www.youtube.com/watch?v=gT4qqHMiEpA
