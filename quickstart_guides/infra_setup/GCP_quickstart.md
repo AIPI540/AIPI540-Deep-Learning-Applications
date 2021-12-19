@@ -1,7 +1,5 @@
 # Google Cloud Setup
 
-Testing
-
 This tutorial includes portions from the GCP setup guide from [Stanford's CS231n](https://github.com/cs231n/gcloud).  However, please make sure to follow the directions in this guide rather than the Stanford one, as they differ significantly in some parts of the workflow.
 
 
