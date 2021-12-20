@@ -27,7 +27,7 @@ The below steps provide a recommended workflow for a new project which will util
 
     ![](.img/colab_openrepo.png)
 
-3) Load any other files from your GitHub repo (e.g. Python scripts, data) into Colab's temporary storage working directory by adding code to the top of your notebook.  Select your scenario below and add the appropriate code:
+3) Load any other files from your GitHub repo (e.g. Python scripts, data) into Colab's temporary storage working directory by adding code to the top of your notebook (or use the terminal access provided by Colab).  Select your scenario below and add the appropriate code:
 
     1) **SCENARIO A**: You are using a public repo and do not need to edit any files other than the notebook file itself.  
 
