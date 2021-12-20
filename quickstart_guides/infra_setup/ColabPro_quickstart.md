@@ -1,3 +1,5 @@
+![](https://storage.googleapis.com/aipi_datasets/Duke-AIPI-Logo.png)
+
 # Google Colaboratory (Colab) Pro Quickstart Guide
 
 ## Table of contents

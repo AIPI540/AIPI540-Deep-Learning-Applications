@@ -1,3 +1,5 @@
+![](https://storage.googleapis.com/aipi_datasets/Duke-AIPI-Logo.png)
+
 # Amazon Web Services Setup
 
 ## Table of contents
