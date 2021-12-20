@@ -102,14 +102,13 @@ New GCP accounts do not come with quota to use GPUs. You have to explicitly requ
 
 **Please request the quota increase ASAP**, because they will take between a couple minutes up to a week to process!  If you don't have GPU quota, you will have to create a CPU-only VM first and create another GPU VM instance later.
 
-You will need to change your quota for **GPU (all regions)**.
+You will need to change your quota for **GPU (all regions)**.  You can change your GPU quota on the [Quotas page](https://console.cloud.google.com/iam-admin/quotas).
 
-1. Select **Limit name** from the dropdown. Then select **GPUs (all regions)** from the next prompted dropdown. Click the checkbox for **Global** in the menu to the right, and click into **ALL QUOTAS**.
-![](.img/gpu-all-regions-1.png)
+![](.img/gcp_increasequota.png)
 
+1. Click the **Filter** button and then select **Quota** from the drop-down menu.  Then select **GPUs (all regions)**
 
-2. Select the checkbox to the left of the first item in the table, and click **EDIT QUOTAS**. Set the **New limit** to 1, and in the **Request description** put "Duke AIPI class project".
-![](.img/gpu-all-regions-2.png)
+2. Select the checkbox to the left of the first item in the table (Compute Engine API service, GPUs (all regions Quota), and click **EDIT QUOTAS**. Set the **New limit** to 1, and in the **Request description** put "Duke AIPI class project".  Click **Submit request**
 
 3. Wait until GCP sends you a second email (first email is just to notify they receive the request) that looks like this. It could take couple minutes to couple days for them to approve.
 ![](.img/gpu-quota-approved.png) 
@@ -118,17 +117,11 @@ You will need to change your quota for **GPU (all regions)**.
 
 1. First, make sure you have upgraded your free tier account to a full account following these [instructions](https://cloud.google.com/free/docs/gcp-free-tier#how-to-upgrade).
 
-2. If you just registered a Google Cloud account, it may take time for GCP to set up the Compute Engine API services (this is the service that provides GPU access, so the GPU quota won't show up before it is ready). 
-
-One way I found that can make Compute Engine API setup faster is by visiting the [VM instance page](https://console.cloud.google.com/compute/) by clicking  **Compute Engine** > **VM instances**
-
-If you see that Compute Engine is not ready yet, wait for couple minutes until you see something like this screenshot below. The GPU-related Quota should now show up in  **IAM Admin** > **Quotas**. 
-![](.img/vm-instance-ready.png)
+2. If you just registered a Google Cloud account, it may take time for GCP to set up the Compute Engine API services (this is the service that provides GPU access, so the GPU quota won't show up before it is ready). You may also need to log out and back in.
 
 3. For region-specific GPUs: Check that you have a default zone and region set under **Compute Engine** > **Settings** > **Region** / **Zone**. Some zones do not have certain GPU resources. Check [pricing and spec for GCP GPUs](https://cloud.google.com/compute/gpus-pricing) to find the availability of GPU resources. You can pick a region to use - I recommend using one with wide GPU type availability such as us-central1
 
-
-More instructions on increasing your GPU quote can be found at the following links: [General quota instructions](https://cloud.google.com/compute/quotas#requesting_additional_quota) and [Step-by-step GPU-specific walk-through](https://stackoverflow.com/questions/45227064/how-to-request-gpu-quota-increase-in-google-cloud).
+More instructions on increasing your GPU quote can be found at the following links: [General quota instructions](https://cloud.google.com/compute/quotas#requesting_additional_quota).
 
 
 ## Set Up Google Cloud VM Image
