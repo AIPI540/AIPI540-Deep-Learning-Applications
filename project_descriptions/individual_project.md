@@ -20,10 +20,9 @@ Your code must be written in Python, and you are free to use any libraries you w
 
 For the individual project, you must also create a working, interactive proof-of-concept application, which must be publicly accessible via internet until 48 hours after the last day of final exams.  You may use any frameworks you wish to create your front-end, such as Flask, Streamlit, or Dash.  
 
-## Final 
-Project Deliverables
+## Final Project Deliverables
 The final deliverables for the individual project include:  
-1) 10 minute maximum presentation including the following:  
+1) 10-minute maximum presentation including the following:  
     - Problem you are addressing  
     - Data source(s)
     - Review of relevant previous efforts and literature (if existing dataset)
