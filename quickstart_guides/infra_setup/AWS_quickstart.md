@@ -52,9 +52,8 @@ You can review the options [here](https://aws.amazon.com/ec2/instance-types/#Acc
 
 ![](.img/aws_requestincrease1.png)
 
-For "Primary instance type" select "All G instances" (or all P instances) and for "New limit value" select 1.
+For "Primary instance type" select "All G instances" (or all P instances) and for "New limit value" select 4 vCPUs (or more).
 
-![](.img/aws_requestincrease2.png)
 
 For the "Use case description" in the request form, I recommend writing something like "Using AWS for project work in Duke University graduate AI course AIPI 540".
 
