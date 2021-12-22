@@ -1,7 +1,7 @@
 ![](https://storage.googleapis.com/aipi_datasets/Duke-AIPI-Logo.png)
 
 # AIPI 540: Deep Learning Applications 
-Welcome to the GitHub repo for AIPI 540: Deep Learning Applications at Duke University.  The course is part of [Duke's AI Master of Engineering program](ai.meng.duke.edu).  The Spring 2022 section is taught by Jon Reifschneider.  Please see Sakai for the course syllabus.
+Welcome to the GitHub repo for AIPI 540: Deep Learning Applications at Duke University.  This repo accompanies the Deep Learning Applications course, which is part of [Duke's AI Master of Engineering program](ai.meng.duke.edu).  The Spring 2022 section is taught by [Jon Reifschneider](https://ai.meng.duke.edu/faculty/jon-reifschneider).  Please see the course Sakai site for the course syllabus.
 
 ## Repo Organization
 This repository contains the following directories:  
@@ -17,6 +17,8 @@ Before you can run the demo notebooks or work on your projects, you will need to
 In this class you may use AWS, Azure, Google Cloud Platform, and/or Google Colab Pro.  We recommend using Colab Pro for running the demo notebooks due to its low cost, however you will also need to work on one of the other three full cloud platforms to do your projects.  Which one you select is up to you - if you do not have a strong preference we recommend using Google Cloud Platform, as it provides the maximum amount of free credits and the instructor is most familiar with it.
 
 To get started, go to the [quickstart_guides -> infra_setup](https://github.com/AIPI540/AIPI540-Deep-Learning-Applications/tree/main/quickstart_guides/infra_setup) directory and follow the quickstart guide instructions for your choice of cloud platform.
+
+We also extend a special thank you to Google for their sponsorship of this class through the Google Cloud Education Grant.
 
 
 
