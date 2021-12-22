@@ -18,7 +18,7 @@ In this class you may use AWS, Azure, Google Cloud Platform, and/or Google Colab
 
 To get started, go to the [quickstart_guides -> infra_setup](https://github.com/AIPI540/AIPI540-Deep-Learning-Applications/tree/main/quickstart_guides/infra_setup) directory and follow the quickstart guide instructions for your choice of cloud platform.
 
-We also extend a special thank you to Google for their sponsorship of this class through the Google Cloud Education Grant.
+We also extend a special thank you to Google for their support of this course through the Google Cloud Education Grant.
 
 
 
