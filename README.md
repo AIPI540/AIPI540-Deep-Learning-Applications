@@ -16,7 +16,9 @@ Before you can run the demo notebooks or work on your projects, you will need to
 
 In this class you may use AWS, Azure, Google Cloud Platform, and/or Google Colab Pro.  We recommend using Colab Pro for running the demo notebooks due to its low cost, however you will also need to work on one of the other three full cloud platforms to do your projects.  Which one you select is up to you - if you do not have a strong preference we recommend using Google Cloud Platform, as it provides the maximum amount of free credits and the instructor is most familiar with it.
 
-To get started, go to the [quickstart_guides -> infra_setup](https://github.com/AIPI540/AIPI540-Deep-Learning-Applications/tree/main/quickstart_guides/infra_setup) directory and follow the quickstart guide instructions for your choice of cloud platform.
+To get started, first set up your local environment for work by creating an environment and installing the necessary packages for this course following the [setting_up_environment quickstart guide](https://github.com/AIPI540/AIPI540-Deep-Learning-Applications/blob/main/quickstart_guides/infra_setup/setting_up_environment.md).
+
+Then, go to the [quickstart_guides -> infra_setup](https://github.com/AIPI540/AIPI540-Deep-Learning-Applications/tree/main/quickstart_guides/infra_setup) directory and follow the quickstart guide instructions for your choice of cloud platform to set up your cloud environment.
 
 We also extend a special thank you to Google for their support of this course through the Google Cloud Education Grant.
 
