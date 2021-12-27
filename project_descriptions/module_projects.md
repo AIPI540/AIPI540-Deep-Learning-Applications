@@ -8,7 +8,7 @@ Each module of the course will include a team-based module project.  At the begi
 
 ### Themes:
 1)	Health, wellness and fitness
-2)	Physical infrastructure – energy, water, transportation
+2)	Physical infrastructure – energy, water, transportation, buildings
 3)	Entertainment and the arts
 4)	Social media and news
 5)	Education and knowledge management

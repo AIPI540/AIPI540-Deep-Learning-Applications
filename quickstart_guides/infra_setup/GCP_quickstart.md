@@ -2,16 +2,13 @@
 
 # Google Cloud Platform Setup
 
-This tutorial includes portions from the GCP setup guide from [Stanford's CS231n](https://github.com/cs231n/gcloud).  However, please make sure to follow the directions in this guide rather than the Stanford one, as they differ significantly in some parts of the workflow.
-
-
 ## Table of contents
 
 1. [Introduction](#introduction)
 2. [Create and Configure Your Account](#create-and-configure-your-account)
     1. [Sign Up for GCP](#sign-up-for-gcp)
     2. [Configure Your Project](#configure-your-project)
-3. [Claim AIPI GCP credits](#claim-aipi-gcp-credits)
+3. [Get the AIPI GCP credits](#get-the-aipi-gcp-credits)
 4. [Request an Increase in GPU Quota](#request-an-increase-in-gpu-quota)  
     1. [Why don't I See Any GPU-related Quota](#why-dont-i-see-any-gpu-related-quota)
 5. [Set Up Google Cloud VM Image](#set-up-google-cloud-vm-image)
@@ -28,14 +25,11 @@ This tutorial includes portions from the GCP setup guide from [Stanford's CS231n
 9. [Further Training](#further-training)
 10. [Google Cloud Certifications](#google-cloud-certifications)
     
+This tutorial includes a few portions from the GCP setup guide of [Stanford's CS231n](https://github.com/cs231n/gcloud).  However, please make sure to follow the directions here rather than the Stanford one, as they differ significantly in some parts of the workflow.
 
 ## Introduction
 
 One option for your team projects and your individual project is to use a GPU instance on Google Cloud Platform (GCP).  One of the main advantages of GCP relative to AWS and Azure is that Google offers a significant amount of free credits to new users, which should be enough to cover your compute expenses throughout the semester.
-
-### REMINDER: Make sure you stop your instances! 
-
-***Since most students will not read to the bottom I have included this at the top: do not forget to stop your instance when you are done (by clicking on the stop button at the top of the page showing your instances), otherwise you will run out of credits and will have to pay the additional compute expenses using your own credit card.***
 
 ### GCP versus Colab
 
@@ -82,7 +76,7 @@ You should receive $300 credits from Google when you first sign up with **Person
 ![](/.img/upgrade-1.png)
 ![](/.img/upgrade-2.png)
 
-## Claim AIPI GCP credits 
+## Get the AIPI GCP credits 
 
 NOTE: You should have created and logged in your GCP account registered with your personal gmail account by now. 
 
@@ -246,8 +240,8 @@ Alternatively, you can develop locally on your favorite editor, push to your rep
 The benefit of this option is that you are not charged credits for working time (until you need to train your model), or run the risk of forgetting to turn your instance off when you step away from my computer.  The downside of this is the extra step of syncing your work via GitHub to the VM, and also that you will not be able to train your model from your local development environment and will need to switch over to your VM to train when ready (assuming it requires GPU).  You may also not be able to access your data while developing, if it resides on GCP unless you maintain a local copy as well.
 
 ## Other Tips
-1) ### REMINDER: Make sure you stop your instances!
-    Don't forget to stop your instance when you are done (by clicking on the stop button at the top of the page showing your instances). You can restart your instance and your saved files will still be available.
+1) ### **REMINDER: Make sure you stop your instances!**
+    **Don't forget to stop your instance when you are done (by clicking on the stop button at the top of the page showing your instances). You can restart your instance and your saved files will still be available.**
 
 2) If you would like to open a Jupyter Notebook on your VM in your browser without going into JupyterLabs via the GCP site as per above, after starting your VM you can run the following to open Jupyter Notebooks:
 

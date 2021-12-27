@@ -15,7 +15,8 @@
     1. [Work on Remote Server](#option-1-work-on-remote-server)
     2. [Work in JupyterLab](#option-2-work-in-jupyterlab)
     3. [Work locally and sync via GitHub](#option-3-work-locally-and-sync-via-github)
-8. [Other Tips](#other-tips)
+8. [Other Tips](#other-tips)  
+9. [Further Training](#further-training)
     
 
 ## Introduction
@@ -110,3 +111,14 @@ The benefit of this option is that you are not charged credits for working time 
     Don't forget to stop your instance when you are done (by clicking on the stop button at the top of the page showing your instances). You can restart your instance and your saved files will still be available.
 
 
+## Further Training
+- [AWS Cloud Practitioner Essentials](https://www.amazon.com/dp/B09HSJ6HN8/ref=s9_acsd_al_bw_c2_x_0_t?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-11&pf_rd_r=SVREMD4A2EGWAQJA1W4H&pf_rd_t=101&pf_rd_p=5548c913-bd6e-44e8-b574-8f716ad2757c&pf_rd_i=14297978011)  
+    - 6 hour introduction to cloud computing using AWS
+    - Highly recommended place to start
+- [Exploring the AWS ML Toolset](https://explore.skillbuilder.aws/learn/course/external/view/elearning/325/exploring-the-machine-learning-toolset?b96ab75c-93e7-4732-bcac-14a210fe9dce=)  
+    - 2.5hr introduction to the tools avaiable on AWS for developing ML models
+- [AWS ML Ramp-Up Guide](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Machine_Learning.pdf)  
+    - Includes a recommended set of learning resources for getting started and ramping up with using AWS for ML  
+    - Many of the suggested resources are free but some are paid
+- [Full list of available free AWS trainings](https://www.amazon.com/b/?node=14297978011)  
+    - Search the entire library of AWS free digital training sessions
