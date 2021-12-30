@@ -279,9 +279,9 @@ The benefit of this option is that you are not charged credits for working time 
 6) You can use [Tmux](https://linuxize.com/post/getting-started-with-tmux/) to keep the training sessions running when you close your laptop. Also, if your collaborators log into the same account on the VM instance, they will see the same tmux session screen in real time. 
 
 ## Further Training
-- [Introduction to Vertex AI video](https://www.youtube.com/watch?v=gT4qqHMiEpA
-)  
+- [Introduction to Vertex AI video](https://www.youtube.com/watch?v=gT4qqHMiEpA)  
     - Brief introductory video on Vertex AI
+- [Hands on with Cloud AI Workshop Video](https://www.youtube.com/watch?v=aB2OxnyfP0c)
 - [Google Cloud Quest - Google Cloud Essentials](https://www.cloudskillsboost.google/quests/23)  
     - 4hr Google training course on Cloud Essentials
     - Highly recommend - covers most of the key functions we will be using in this course
