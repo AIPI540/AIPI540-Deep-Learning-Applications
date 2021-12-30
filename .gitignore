@@ -1,9 +1,9 @@
 # Additional
 .DS_Store
 */.DS_Store
-computer_vision/object_detection/YOLO/darknet/weights/
-computer_vision/CNNs/data/
-computer_vision/CNNs/runs/
+2_computer_vision/object_detection/YOLO/darknet/weights/
+2_computer_vision/CNNs/data/
+2_computer_vision/CNNs/runs/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
