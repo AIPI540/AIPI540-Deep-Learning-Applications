@@ -1,0 +1,16 @@
+__pycache__
+.DS_Store
+*/.DS_Store/*
+
+# Temp files
+~*
+*/~*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data
+*/data/*
+
+# Config files

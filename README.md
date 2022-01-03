@@ -9,6 +9,7 @@ This repository contains the following directories:
 - **1_intro_neuralnets**: demo examples of how to train fully connected neural networks in PyTorch  
 - **2_computer_vision**: demo examples of main computer vision tasks in PyTorch  
 - **3_nlp**: demo examples of main natural language processing tasks 
+- **4_recommender_systems**: demo examples of recommendation systems
 - **project_descriptions**: requirements for group and individual projects
 
 ## Getting Started

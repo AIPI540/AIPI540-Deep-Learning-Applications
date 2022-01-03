@@ -1,0 +1,6 @@
+runtime: custom
+env: flex
+
+# Lock instances to 1
+manual_scaling:
+  instances: 1

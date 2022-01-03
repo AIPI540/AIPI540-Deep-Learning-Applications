@@ -1,5 +1,3 @@
-# Inspired by https://www.kaggle.com/c/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words
-
 import numpy as np
 import pandas as pd
 from bs4 import BeautifulSoup
