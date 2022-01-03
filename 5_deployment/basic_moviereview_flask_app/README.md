@@ -43,7 +43,7 @@ gcloud app deploy app.yaml --stop-previous-version
 ```
 
 The first command sets our GCP project.  The second command deploys our app via Google App Engine according to the 'app.yaml' file.  This process consists of the following steps:
-1) Our app is put into a [Docker container](https://www.docker.com/resources/what-container) defined by the Dockerfile within our directory 
+1) Our app is put into a [Docker container](https://www.docker.com/resources/what-container) defined by the [Dockerfile](https://docs.docker.com/engine/reference/builder/) within our directory 
 2) Once the Docker container is created it becomes a Docker image, which you can think of as an immutable Docker container which we can deploy anywhere and it will not change
 3) The Docker image is uploaded to the [Google Container Registry (GCR)](https://cloud.google.com/container-registry)
 4) When the Docker container is available on GCR, it is then deployed to a Google App Engine instance, which is defined by the instructions in the 'app.yaml' file.
