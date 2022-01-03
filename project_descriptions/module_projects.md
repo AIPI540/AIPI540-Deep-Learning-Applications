@@ -11,12 +11,17 @@ Each module of the course will include a team-based module project.  At the begi
 2)	Physical infrastructure – energy, water, transportation, buildings
 3)	Entertainment and the arts
 4)	Social media and news
-5)	Education and knowledge management
+5)	Education and learning
 6)	Agriculture and food
 
 ## Project Requirements
-The module project must align with the topics covered within the module in class, but may extend beyond that to include other approaches or technologies.  The choice of specific topic and data used is up to you.  The objective of the project is to develop a model to predict or analyze real-world data.  Your final model is NOT required to be a neural network based model, but you ARE required to evaluate a NN-based approach as part of your project (e.g. you may evaluate multiple approaches and determine that a classical approach outperforms a NN) and include results of the evaluation in your presentation.
+The module project must align with the topics covered within the module in class, but may extend beyond that to include other approaches or technologies.  The choice of specific topic and data used is up to you.  The objective of the project is to develop a model to predict or analyze real-world data.  As part of your project you are required to evaluate at least two approaches:
+1) A non deep learning approach using classical ML techniques
+2) A NN-based deep learning approach  
 
+For your final deliverable you may choose whichever of the above approaches works better for you, although you must include the code for both somewhere in your repo.  There are rare situations where there may not be a viable non deep learning approach.  If this is the case, you must write a paragraph explaining why no approach other than a neural network presents a viable solution to your problem, and defend your claim by discussing the theory behind your rationale.  You must include this writeup somewhere in your repo.
+
+### Options for approaching project
 There are two options on how to approach the project:  
 1)	You may choose to work on a dataset or problem for which there are no identifiable previous modeling approaches (and therefore, your project will be entirely novel), e.g. if you create a new dataset for the project or no one has previously attempted to model the dataset.
     - For example, suppose you create a new text dataset about chemistry by gathering text from many articles about areas of chemistry, and train a new NLP topic model to extract the key topics of each article
@@ -24,8 +29,6 @@ There are two options on how to approach the project:
 
 2)	Alternatively, you may choose to work on an existing dataset or problem which others have worked on (e.g. you find a dataset on Kaggle).  If you do work on an existing problem, you must explain and show what is new and novel about your approach relative to previous approaches.  You should also make sure to reference the previous approaches you reviewed.  Your approach should either result in state-of-the-art (SOTA) performance or close to it, OR provide greater insight into the problem (e.g. better explainability) as compared to previous approaches.
     - For example, suppose you find an open source dataset of medical chest xray images and several references of disease classification models using the data.  You take a different approach to modeling it by using a computer vision model to extract certain features from the images and then feeding those into a decision tree model.
-
-
 
 Your code must be written in Python, and you are free to use any libraries you wish.  Although we will use PyTorch in class, you are welcome to use Tensorflow/Keras for the project.  Although you may use Jupyter Notebooks for the exploration phase of your project, your final submission must be in the form of Python scripts, organized as described below.  
 
@@ -38,13 +41,13 @@ The final deliverables for each module project include:
     - Your model evaluation process & metric selection
     - Your modeling approach
         - Data processing pipeline  
-        - Models evaluated and model selected
+        - Models evaluated and model selected (must include at least 1 non deep learning model and 1 deep learning model - see details above)
     - Either visualizations of the output (graphs) and/or a demo of your project  
     - Results and conclusions
-2) Submitted link to a public or private GitHub repo containing your code.  Code should be organized in the following structure.  Be sure to include a requirements.txt file and a README.md describing the project and how to run it.
+2) Submitted link to a public or private GitHub repo containing your code.  Code should be organized in the following structure.  Be sure to include a requirements.txt file and a README describing the project and how to run it.  You must either include the data in your repo if it is small enough or provide a link to it along with the original source.
 
 ### Project repo structure
-Your project repo should be organized similar to the below structure.  You may choose to deviate slightly from the below, but make sure each main component below is included somewhere.  You may also add additional files/directories if needed, e.g. dockerfile, database or html/css).
+Your project repo should be organized similar to the below structure.  You may choose to deviate from the below, but make sure each main component below is included somewhere.  You may also add additional files/directories if needed, e.g. dockerfile, database or html/css).
 
 Note: if you use Colab Pro for your project, you can include a **run.ipynb** notebook file which accesses your data, imports modules and runs your project.  Be sure not to accidentally include any secrets in this file.
 
@@ -75,7 +78,8 @@ Your project will be graded on the following criteria.  Note that there are no s
     - Well-defined problem
     - Clear description of your data, data pipeline, modeling approach, and model evaluation approach
     - Clear explanation of previous approaches (if existing dataset) and what is new and novel about your approach
-    - Analysis of your performance relative to previous approaches
+    - Analysis of your performance relative to previous approaches  
+    - Discussion of deep learning approach vs. non deep learning approach
     - Understandable, descriptive demo or visualizations of outputs/performance  
 - **20% project code submission**  
     - Code organization - well organized and includes all necessary files
