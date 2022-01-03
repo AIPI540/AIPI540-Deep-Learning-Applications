@@ -1,0 +1,6 @@
+runtime: python37
+entrypoint: gunicorn -b :8080 main:app
+
+#runtime: custom
+#env: flex
+#entrypoint: gunicorn -b :8080 main:app

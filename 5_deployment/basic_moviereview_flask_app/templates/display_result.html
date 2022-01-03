@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <title>Movie Review Classifier</title>
+  </head>
+
+  <body>
+    <div class="mb-3">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary mt-0">
+            <div class="container">
+              <a class="navbar-brand" href="/">
+                <img src="static/logos/logo.png" width="30" height="30" class="d-inline-block align-top" alt="logo" loading="lazy">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+        </div>
+    </div>
+
+    <div class='container-fluid p-2'>
+        <div class="jumbotron text-center bg-light pb-1">
+          <h1 class='display-4'>Movie Review Classifier App</h1>
+          <hr class="my-3">
+          <p class='lead'>This is an application for classifying movie reviews as positive or negative</p> 
+        </div>
+      </div>
+
+    
+    <div class="container">
+        <div class="my-3">
+            <h4>Input movie review:</h4>
+            <p>{{ review }}</p>
+            <h4>{{ prediction }}</h4>
+            <h4>{{ probability }}</h4>
+        </div>
+        <a href="/" class="btn btn-primary" role="button">Submit another review</a>
+    </div>
+
+    <!--Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+  </body>
+</html>

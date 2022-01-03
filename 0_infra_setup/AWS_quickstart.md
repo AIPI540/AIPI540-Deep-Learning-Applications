@@ -21,18 +21,14 @@
 
 ## Introduction
 
-One option for your team projects and your individual project is to use a GPU instance on Google Cloud Platform (GCP).  One of the main advantages of GCP relative to AWS and Azure is that Google offers a significant amount of free credits to new users, which should be enough to cover your compute expenses throughout the semester.
-
-### REMINDER: Make sure you stop your instances! 
-
-***Since most students will not read to the bottom I have included this at the top: do not forget to stop your instance when you are done (by clicking on the stop button at the top of the page showing your instances), otherwise you will run out of credits and will have to pay the additional compute expenses using your own credit card.***
+One option for your team projects and your individual project is to use a GPU instance on Amazon Web Services (AWS).  
 
 ### AWS versus Colab
 
 While [Colab](https://research.google.com/colaboratory/faq.html) is useful for your module projects and for the experimentation phase of your individual course project, there are a few reasons you will likely want to use AWS or another cloud platform rather than Colab for your course project:  
  1) Colab is not designed to deploy code into production.  Since you are required to develop an interface for your course project, Colab will not be able to support your production app.  Note: you may be able to train your model on Colab and deploy on something else like Heroku.  
- 2) You may find that you need a dedicated GPU instance to train on large datasets for your course project, and perhaps for your module projects as well (depending on what data you are using).  Colab will disconnect after 12 hours or ~30 min of idling (and you will lose your unsaved data). A AWS VM instance will not disconnect untill you stop it (or run out of credits).  GCP also allows you to choose the type and number of GPUs to use, while Colab does not.
- 3) A GCP VM instance's disk space allows you to deal with larger datasets. In Colab's case, you will have to save all your data and models to Google Drive.
+ 2) You may find that you need a dedicated GPU instance to train on large datasets for your course project, and perhaps for your module projects as well (depending on what data you are using).  Colab will disconnect after 12 hours or ~30 min of idling (and you will lose your unsaved data). A AWS VM instance will not disconnect untill you stop it (or run out of credits).  AWS also allows you to choose the type and number of GPUs to use, while Colab does not.
+ 3) A AWS VM instance's disk space allows you to deal with larger datasets. In Colab's case, you will have to save all your data and models to Google Drive.
 
 ## Sign Up for AWS
 Follow the [instructions](https://portal.aws.amazon.com/billing/signup?#/start) to set up a new AWS account.  **Use your personal email rather than your Duke email to set up the account**.  You will also need to input a credit card for billing, although you will receive some free credits from AWS Educate which will be applied to your account and used first, before AWS charges your credit card.  Select "Personal account" rather than "Business account".  When you get to the page titled "Select a support plan", select "Basic support - free".
