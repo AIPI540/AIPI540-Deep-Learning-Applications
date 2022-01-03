@@ -1,7 +1,8 @@
 ![](https://storage.googleapis.com/aipi_datasets/Duke-AIPI-Logo.png)
 
 # Streamlit App Example
-![](../img/streamlit_app.png)
+![](.img/streamlit_app.png)
+
 This directory contains a simple example web app which uses [Streamlit](https://streamlit.io) for the user interface.  Streamlit is a very simple but powerful way to create interactive interfaces for web apps using scripting in Python.  You can create dynamic interfaces for apps using very little code, which makes it great for prototyping new applications.
 
 The demo app uses a NLP model to evaluate text of a movie review which a user inputs and attempts to classify whether the sentiment of the movie review is positive or negative.  The app can be run locally (and I recommend you do this first), and can also be deployed on the Google Cloud Platform via the Google App Engine.

@@ -1,6 +1,8 @@
 ![](https://storage.googleapis.com/aipi_datasets/Duke-AIPI-Logo.png)
 
 # Flask App Example
+![](.img/flask_demo.png)
+
 This directory contains a simple example web app built using Flask.  The app uses a NLP model to evaluate text of a movie review which a user inputs and attempts to classify whether the sentiment of the movie review is positive or negative.  The app can be run locally (and I recommend you do this first), and can also be deployed on the Google Cloud Platform via the Google App Engine.
 
 ## Run the app locally
