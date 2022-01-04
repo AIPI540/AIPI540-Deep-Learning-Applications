@@ -3,6 +3,14 @@
 # AIPI 540: Deep Learning Applications 
 Welcome to the GitHub repo for AIPI 540: Deep Learning Applications at Duke University.  This repo accompanies the Deep Learning Applications course, which is part of [Duke's AI Master of Engineering program](ai.meng.duke.edu).  The Spring 2022 section is taught by [Jon Reifschneider](https://ai.meng.duke.edu/faculty/jon-reifschneider).  Please see the course Sakai site for the course syllabus.
 
+This course contains three modules on the key areas of application of deep learning: computer vision, natural language processing, and recommendation systems.  Each module begins with a discussion of the theory behind the main techniques and architectures used in the application area and why they work, following by hands-on exploration of the key applications in Python.  Students complete a team project during each module as well as an individual course-long project which culminates in a prototype web app incorporating deep learning.
+
+This repo contains demo code examples which accompany the course.  If you are in the course or following along with the code examples, the course sessions follow this order:  
+- Week 1: Infra setup and intro to neural networks  
+- Weeks 2-5: Computer vision  
+- Weeks 6-9: Natural language processing  
+- Weeks 10-12: Recommendation systems
+
 ## Repo Organization
 This repository contains the following directories:  
 - **0_infra_setup**: contains cheat sheet instructions and code examples for setting up deep learning VMs on the major cloud platforms
@@ -21,7 +29,7 @@ To get started, first set up your local environment for work by creating an envi
 
 Then, go to the [0_infra_setup](https://github.com/AIPI540/AIPI540-Deep-Learning-Applications/tree/main/0_infra_setup) directory and follow the quickstart guide instructions for your choice of cloud platform to set up your cloud environment.
 
-## Recognition
+## Thank You
 We extend a special thank you to Google for their support of this course through the Google Cloud Education Grant, which provides free GCP credits for our students.
 
 ## Additional References
