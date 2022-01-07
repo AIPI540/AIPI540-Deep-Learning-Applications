@@ -1,7 +1,7 @@
 ![](https://storage.googleapis.com/aipi_datasets/Duke-AIPI-Logo.png)
 
 # Computer vision
-This directory contains notebooks which introduce several of the foundational approaches and architectures used to solve problems in computer vision.  These notebooks should be run on GPU.
+This directory contains notebooks which introduce several of the foundational approaches and architectures used to solve problems in computer vision.  This content accompanies the Computer Vision module of the course.  These notebooks should be run on GPU.  
 
 The directory contains the following demo notebooks:  
 - **CNNs**  
