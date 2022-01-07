@@ -5,7 +5,9 @@ Welcome to the GitHub repo for AIPI 540: Deep Learning Applications at Duke Univ
 
 This course contains three modules on the key areas of application of deep learning: computer vision, natural language processing, and recommendation systems.  Each module begins with a discussion of the theory behind the main techniques and architectures used in the application area and why they work, following by hands-on exploration of the key applications in Python.  Students complete a team project during each module as well as an individual course-long project which culminates in a prototype web app incorporating deep learning.
 
-This repo contains demo code examples which accompany the course.  If you are in the course or following along with the code examples, the course sessions follow this order:  
+This repo contains notebooks with code examples which accompany the course.  The purpose of the notebooks is to demonstrate the application of many of the methods and model architectures we cover in the course.  For purposes of demonstration, most of the notebooks use small illustrative example datasets, but the approaches shown can be applied to tackle unstructured data problems at scale.
+
+If you are in the course or following along with the code examples, the course sessions follow this order:  
 - Week 1: Infra setup and intro to neural networks  
 - Weeks 2-5: Computer vision  
 - Weeks 6-9: Natural language processing  
