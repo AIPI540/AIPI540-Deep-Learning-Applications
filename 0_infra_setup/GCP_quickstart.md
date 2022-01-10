@@ -102,7 +102,7 @@ You will need to change your quota for **GPU (all regions)**.  You can change yo
 
 ![](.img/gcp_increasequota.png)
 
-1. Click the **Filter** button and then select **Quota** from the drop-down menu.  Then select (or type) **GPUs (all regions)**.  If you do not see an options for GPUs, you may not yet have Compute Engine API Services enabled on your new project.  Click on the top left icon for the Navigation Menu dropdown, then select "Compute Engine".  If you get a "Failed to load" error, wait 5-10 minutes and then try again to view it.  If the screen now populates, go back to **IAM & Admin** > **Quotas** and check again for GPU in the filter.
+1. Click the **Filter** button and then select **Quota** from the drop-down menu.  Then select (or type) **GPUs (all regions)**.  If you do not see any options for GPU quotas, you may not yet have Compute Engine API Services enabled on your new project.  Click on the top left icon for the Navigation Menu dropdown, then select "Compute Engine".  If you get a "Failed to load" error, wait 5-10 minutes and then try again to view it.  If the screen now populates, go back to **IAM & Admin** > **Quotas** and check again for GPU in the filter.
 
 2. Select the checkbox to the left of the first item in the table (Compute Engine API service, GPUs (all regions Quota), and click **EDIT QUOTAS**. Set the **New limit** to 1, and in the **Request description** put "Duke AIPI class project".  Click **Submit request**
 

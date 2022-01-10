@@ -8,7 +8,7 @@ The notebook contents are as follows:
     - implementations of shallow neural networks in Python & NumPy for regression and classification tasks  
 - **pytorch_nn_intro**  
     - demo examples of creating, training and evaluating neural networks using PyTorch  
-- **improving_training_efficiency**  
+- **regularization_techniques**  
     - introduces several methods to speed up training of neural networks and/or reduce overfitting risk
 
 
