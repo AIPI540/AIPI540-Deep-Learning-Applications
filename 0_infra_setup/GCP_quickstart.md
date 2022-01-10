@@ -94,7 +94,7 @@ NOTE: You should have created and logged in your GCP account registered with you
 
 ## Request an Increase in GPU Quota
 
-New GCP accounts do not come with quota to use GPUs. You have to explicitly request it in **IAM Admin** > **Quotas**. 
+New GCP accounts do not come with quota to use GPUs. You have to explicitly request it in **IAM & Admin** > **Quotas**. 
 
 **Please request the quota increase ASAP**, because they will take between a couple minutes up to a week to process!  If you don't have GPU quota, you will have to create a CPU-only VM first and create another GPU VM instance later.
 
@@ -102,7 +102,7 @@ You will need to change your quota for **GPU (all regions)**.  You can change yo
 
 ![](.img/gcp_increasequota.png)
 
-1. Click the **Filter** button and then select **Quota** from the drop-down menu.  Then select **GPUs (all regions)**
+1. Click the **Filter** button and then select **Quota** from the drop-down menu.  Then select (or type) **GPUs (all regions)**.  If you do not see an options for GPUs, you may not yet have Compute Engine API Services enabled on your new project.  Click on the top left icon for the Navigation Menu dropdown, then select "Compute Engine".  If you get a "Failed to load" error, wait 5-10 minutes and then try again to view it.  If the screen now populates, go back to **IAM & Admin** > **Quotas** and check again for GPU in the filter.
 
 2. Select the checkbox to the left of the first item in the table (Compute Engine API service, GPUs (all regions Quota), and click **EDIT QUOTAS**. Set the **New limit** to 1, and in the **Request description** put "Duke AIPI class project".  Click **Submit request**
 
