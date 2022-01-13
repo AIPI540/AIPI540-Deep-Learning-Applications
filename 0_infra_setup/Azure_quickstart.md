@@ -65,7 +65,7 @@ There are several different ways to use your new VM as part of your development 
 ### Option 1: Work in VSCode connected to your VM
 One of the nice things about Azure is that if you are a VS Code user, you can use your VS Code on your computer and remote connect via SSH to your VM to develop and run code on your VM, through your VS Code interface on your computer.
 
-To develop on your VM using VS Code, follow the [Remote development over SSH tutorial](https://code.visualstudio.com/docs/remote/ssh-tutorial).
+To develop on your VM using VS Code, follow the [Remote development over SSH tutorial](https://code.visualstudio.com/docs/remote/ssh-tutorial). Additionally, watch the [tutorial video](https://learning.oreilly.com/videos/azure-remote-compute/50126VIDEOPAIML/) on how to connect your Azure VM up to VSCode by Microsoft's Alfredo Deza (Duke students use your Duke credentials to log into O'Reilly).
 
 **If you chose to work using the VM, be aware that you will be charged credits for the time your VM is running - regarless of whether you are training a model or just developing.** 
 
@@ -89,7 +89,9 @@ The benefit of this option is that you are not charged credits for working time 
 
 ## Further Training
 - [Intro to Azure session by Microsoft's Alfredo Deza](https://duke.zoom.us/rec/play/rBr7_1y3VOxhp54LwM1aylPzcexMHr3Z83HDLbpPWrNdH5uHP6dBwulvyHgFMtiLonscdX9FQDtCd3kC.EzLULTyThz3GUpmd?continueMode=true&_x_zm_rtaid=kT4qo1VkS9akVqxg6Jr1Ew.1641172555387.fc9bc47a0470452208ff8baa8f3833ec&_x_zm_rhtaid=636)  
-    - 1hr intro session presented to students in AIPI 520  
+    - 1hr intro session presented to students in AIPI 520 
+- [Azure remote compute tutorial video](https://learning.oreilly.com/videos/azure-remote-compute/50126VIDEOPAIML/)  
+    - Video walk-through of how to connect your local VSCode to run on an Azure VM via SSH
 - [Learning Journey for Machine Learning on Azure](https://azure.microsoft.com/mediahandler/files/resourcefiles/ml-learning-journey/Learning%20Journey%20for%20Machine%20Learning%20on%20Azure%20-%2020210208.pdf)  
     - A free 1hr/day 30-day training program to learn ML on Azure, which can also prepare you for the Azure Data Scientist Associate certification  
 - [Microsoft Azure AI Fundamentals Specialization on Coursera](https://www.coursera.org/specializations/microsoft-azure-ai-900-ai-fundamentals)  
