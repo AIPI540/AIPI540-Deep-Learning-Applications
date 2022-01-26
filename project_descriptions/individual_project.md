@@ -42,7 +42,7 @@ The final deliverables for the individual project include:
 3) Submitted link to a working, publicly accessible web or mobile interface of your application deployed on a cloud platform (e.g. GCP, AWS, Azure, Heroku, Render etc)
 
 ### Project repo structure
-Your project repo should be organized similar to the below structure.  You may choose to deviate slightly from the below, but make sure each main component below is included somewhere.  You may also add additional files/directories if needed, e.g. dockerfile, database or html/css).
+Your project repo should be organized similar to the below structure.  You may choose to deviate from the below (e.g. you may have more or less script files or data directories), but make sure each main component is included somewhere.  You may also add additional files/directories if needed, e.g. dockerfile, database or html/css).
 
 ```
 ├── README.md               <- description of project and how to set up and run it
@@ -64,7 +64,7 @@ Your project repo should be organized similar to the below structure.  You may c
 ```
 
 ## Weekly Progress Updates
-Beginning Week 5, each week you are required to submit a 1-3 minute video progress update.  You must describe the progress you've made during the week and SHOW progress - either by displaying what your code does that you have written during the week, or (in the later stages) showing early prototypes of your app.  **The weekly progress updates count for 5% of your total course grade.**  For each update that you do not submit on time, you will lose -0.5%.  Weekly updates will be submitted via Ed Discussions.  You must create a new thread for your project, and each week you will post your weekly update video link as a response/comment on your thread.  Weekly updates are due BEFORE the start of class the following week (e.g. Week 5 update is due before start of Week 6 class).
+Beginning Week 6, each week you are required to submit a 1-3 minute video progress update.  You must describe the progress you've made during the week and SHOW progress - either by displaying what your code does that you have written during the week, or (in the later stages) showing early prototypes of your app.  **The weekly progress updates count for 5% of your total course grade.**  For each update that you do not submit on time, you will lose -0.5%.  Weekly updates will be submitted via Ed Discussions.  You must create a new thread for your project, and each week you will post your weekly update video link as a response/comment on your thread.  Weekly updates are due BEFORE the start of class the following week (e.g. Week 6 update is due before start of Week 7 class).
 
 ## "Demo Day" Final Presentation
 The course project will culminate in a virtual "Demo Day" (a la TechStars) via Zoom at the end of the semester.  This will be a public event where we will invite other AIPI faculty members and friends of the program.  You are also welcome to invite your family and friends to tune in live to watch your presentation/demo!  It should be a fun event.

@@ -47,17 +47,16 @@ The final deliverables for each module project include:
 2) Submitted link to a public or private GitHub repo containing your code.  Code should be organized in the following structure.  Be sure to include a requirements.txt file and a README describing the project and how to run it.  You must either include the data in your repo if it is small enough or provide a link to it along with the original source.
 
 ### Project repo structure
-Your project repo should be organized similar to the below structure.  You may choose to deviate from the below, but make sure each main component below is included somewhere.  You may also add additional files/directories if needed, e.g. dockerfile, database or html/css).
+Your project repo should be organized similar to the below structure.  You may deviate from the below structure if you wish, but make sure you have at least the main components (README, requirements.txt, main.py, helper scripts, model(s), data).  You may also add additional files/directories if needed, e.g. dockerfile, database or html/css.
 
-Note: if you use Colab Pro for your project, you can include a **run.ipynb** notebook file which accesses your data, imports modules and runs your project.  Be sure not to accidentally include any secrets in this file.
+Note: if you use Colab Pro for your project, your main file can be a notebook file (`main.ipynb` instead of `main.py`) which accesses your data, imports modules and runs your project.  Be sure not to accidentally include any secrets in this file.
 
 ```
 ├── README.md               <- description of project and how to set up and run it
 ├── requirements.txt        <- requirements file to document dependencies
 ├── Makefile [OPTIONAL]     <- setup and run project from command line
-├── run.ipynb [OPTIONAL]    <- run project on Google Colab (only include if using Google Colab for project)
 ├── setup.py                <- script to set up project (get data, build features, train model)
-├── app.py                  <- app to run project / user interface
+├── main.py [or main.ipynb] <- main script/notebook to run project / user interface
 ├── scripts                 <- directory for pipeline scripts or utility scripts
     ├── make_dataset.py     <- script to get data [OPTIONAL]
     ├── build_features.py   <- script to run pipeline to generate features [OPTIONAL]
@@ -82,7 +81,7 @@ Your project will be graded on the following criteria.  Note that there are no s
     - Discussion of deep learning approach vs. non deep learning approach
     - Understandable, descriptive demo or visualizations of outputs/performance  
 - **20% project code submission**  
-    - Code organization - well organized and includes all necessary files
+    - Code organization - well organized and includes all necessary files to run the project
     - Code documentation - code is well commented and readable, and project contains descriptive readme file
 - **10% team peer evaluation**  
     - After the project each member of the team will anonymously evaluate the contribution of each other member by selecting from two choices: 1) "member contributed equally to the project", or 2) "member did not contribute sufficiently to the project".  If ALL other team members rate your contribution to the project as "member did not contribute sufficiently to the project", you will receive a 0 on this component.  Otherwise, you will receive full credit (10% of total grade)
