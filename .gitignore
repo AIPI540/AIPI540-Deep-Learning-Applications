@@ -4,6 +4,7 @@
 2_computer_vision/object_detection/YOLO/darknet/weights/
 2_computer_vision/CNNs/data/
 2_computer_vision/CNNs/runs/
+2_computer_vision/model_interpretation/data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
