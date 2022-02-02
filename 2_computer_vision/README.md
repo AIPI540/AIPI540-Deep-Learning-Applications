@@ -23,6 +23,10 @@ The directory contains the following demo notebooks (which should be reviewed in
     - **Detectron2**  
         - demo of object detection, keypoint prediction and image segmentation using the Detectron2 model
 
+- **model_interpretation**  
+    - **CAM_xrays**  
+        - example of how to use Class Activation Maps to improve interpretability of model predictions
+
 
 
     
