@@ -3,7 +3,10 @@
 # Natural language processing
 This directory contains notebooks which introduce several of the foundational approaches and architectures used to solve problems in natural language processing.  This content accompanies the Natural Language Processing module of the course.
 
-The directory contains the following demo notebooks (which should be reviewed in the order listed):  
+The directory contains the following demo notebooks (which should be reviewed in the order listed): 
+- **text_preprocessing**  
+    - Introduces basic text cleaning and pre-processing techniques
+
 - **classification**  
     - **text_classification_tfidf**  
         - classification of text documents using classical bag-of-words and TF-IDF approaches

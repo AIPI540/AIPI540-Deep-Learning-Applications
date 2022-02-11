@@ -33,7 +33,9 @@ To get started, first set up your local environment for work by creating an envi
 Then, go to the [0_infra_setup](https://github.com/AIPI540/AIPI540-Deep-Learning-Applications/tree/main/0_infra_setup) directory and follow the quickstart guide instructions for your choice of cloud platform to set up your cloud environment.
 
 ## Thank You
-We extend a special thank you to Google for their support of this course through the Google Cloud Education Grant, which provides free GCP credits for our students.
+We extend a special thank you to our two course sponsors:  
+- **Google** for their support of this course through the Google Cloud Education Grant, which provides free GCP credits for our students  
+- **Microsoft** for their support of our course through their Azure Education Sponsorship, which allows us to provide free Azure credits for students in the course to use
 
 ## Additional References
 In this course we will be building software applications, primarily using Python.  Many students have never built software before, and some may be somewhat new to programming in general.  If that is you, do not fear - it may take a bit of extra effort but you can be successful in this course.
