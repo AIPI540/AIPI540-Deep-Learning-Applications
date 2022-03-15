@@ -1,7 +1,7 @@
 ![](https://storage.googleapis.com/aipi_datasets/Duke-AIPI-Logo.png)
 
 # AIPI 540: Deep Learning Applications 
-Welcome to the GitHub repo for AIPI 540: Deep Learning Applications at Duke University.  This repo accompanies the Deep Learning Applications course, which is part of [Duke's AI Master of Engineering program](ai.meng.duke.edu).  The Spring 2022 section is taught by [Jon Reifschneider](https://ai.meng.duke.edu/faculty/jon-reifschneider).  Please see the course Sakai site for the course syllabus.
+Welcome to the GitHub repo for AIPI 540: Deep Learning Applications at Duke University.  This repo accompanies the Deep Learning Applications course, which is part of [Duke's AI Master of Engineering program](https://ai.meng.duke.edu).  The Spring 2022 section is taught by [Jon Reifschneider](https://ai.meng.duke.edu/faculty/jon-reifschneider).  Please see the course Sakai site for the course syllabus.
 
 This course contains three modules on the key areas of application of deep learning: computer vision, natural language processing, and recommendation systems.  Each module begins with a discussion of the theory behind the main techniques and architectures used in the application area and why they work, following by hands-on exploration of the key applications in Python.  Students complete a team project during each module as well as an individual course-long project which culminates in a prototype web app incorporating deep learning.
 
