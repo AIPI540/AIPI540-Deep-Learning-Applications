@@ -28,7 +28,7 @@ For the individual project, you must also create a working, interactive proof-of
 
 ## Final Project Deliverables
 The final deliverables for the individual project include:  
-1) 10-minute maximum presentation including the following:  
+1) 15-minute maximum presentation (there is a hard stop!) including the following:  
     - Problem you are addressing  
     - Data source(s)
     - Review of relevant previous efforts and literature (if existing dataset)
@@ -73,11 +73,10 @@ The course project will culminate in a virtual "Demo Day" (a la TechStars) via Z
 Your individual project deliverables (25% of course grade) will be graded on the following criteria.  Note that there are no specific numeric performance targets that are used in grading the projects - you model's performance is related to the problem and data and so will differ widely across teams/projects.
 
 - **60% project presentation**
-    - Well-defined problem and motivation
-    - Clear description of your data, data pipeline, modeling approach, and model evaluation approach
-    - Clear explanation of previous approaches (if existing dataset) and what is new and novel about your approach
-    - Analysis of your performance relative to previous approaches (unless dataset is new)
-    - Discussion of deep learning approach vs. non deep learning approach
+    - Well-defined problem and motivation - what problem are you solving and why?
+    - Clear description of your data, data pipeline, modeling approach (mention both non-DL and DL), and model evaluation approach
+    - Brief description of previous approaches to solving the problem and what is new and novel about your approach
+    - Analysis of your performance and ability to solve the problem relative to previous approaches (unless dataset is new)
     - Key user experience decisions made and rationale
     - Understandable, descriptive demo of your application
 - **25% proof-of-concept application**  
