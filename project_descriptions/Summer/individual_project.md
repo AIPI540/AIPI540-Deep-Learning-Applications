@@ -3,7 +3,7 @@
 # Individual Project Description
 
 ## Project Topic
-For your project topic you may select a topic related to any of the below six themes.  The specific topic that you select, and what type of deep learning models you utilize (computer vision / NLP / recommendation systems / etc) are fully up to you.  **Note that you CANNOT select a topic for your course project that you are ALREADY working on for a previous course, research or work.**
+For your project topic you may select a topic related to any of the below six themes.  The specific topic that you select, and what type of deep learning models you utilize (computer vision / NLP / recommendation systems / etc) are fully up to you.  **Note that you CANNOT select a topic for your course project that you are already working on for a previous course, research or work.**
 
 ### Themes:
 1)	Health, wellness and fitness
