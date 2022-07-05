@@ -7,7 +7,7 @@ networkx
 nltk
 numpy
 opencv_python
-pandas=
+pandas
 Pillow
 protobuf
 pydicom
