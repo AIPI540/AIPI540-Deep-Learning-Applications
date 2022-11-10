@@ -8,7 +8,6 @@ dependencies:
   - absl-py=1.0.0
   - aiohttp=3.8.1
   - aiosignal=1.2.0
-  - appnope=0.1.2
   - argon2-cffi=20.1.0
   - async-timeout=4.0.2
   - async_generator=1.10
@@ -71,7 +70,6 @@ dependencies:
   - lcms2=2.12
   - libcxx=12.0.0
   - libffi=3.3
-  - libgfortran=3.0.1
   - libiconv=1.16
   - libidn2=2.3.2
   - libpng=1.6.37
@@ -84,7 +82,6 @@ dependencies:
   - libwebp=1.2.0
   - libwebp-base=1.2.0
   - libxml2=2.9.12
-  - llvm-openmp=12.0.0
   - lz4-c=1.9.3
   - markdown=3.3.6
   - markupsafe=2.0.1
@@ -188,6 +185,9 @@ dependencies:
   - zlib=1.2.11
   - zstd=1.4.9
   - pip:
+    - appnope=0.1.2
+    - llvm-openmp=12.0.0
+    - libgfortran=3.0.1
     - altair==4.2.0
     - astor==0.8.1
     - base58==2.1.1
