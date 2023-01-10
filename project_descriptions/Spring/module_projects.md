@@ -19,7 +19,9 @@ The module project must align with the topics covered within the module in class
 1) A non deep learning approach using classical ML techniques
 2) A NN-based deep learning approach  
 
-For your final deliverable you may choose whichever of the above approaches works better for you, although you must include the code for both somewhere in your repo.  There are rare situations where there may not be a viable non deep learning approach.  If this is the case, you must write a paragraph explaining why no approach other than a neural network presents a viable solution to your problem, and defend your claim by discussing the theory behind your rationale.  You must include this writeup somewhere in your repo.
+For your final deliverable you may choose whichever of the above approaches works better for you, although you must include the code for both somewhere in your repo.  There are rare situations where there may not be a viable non deep learning approach.  If this is the case, you must write a detailed paragraph explaining why no approach other than a neural network presents a viable solution to your problem, and defend your claim by discussing the theory behind your rationale (you will lose points if your rationale is not complete or correct).  You must include this writeup somewhere in your repo.
+
+Your project deliverables also include a visual interface to interact with your ML system.   You may use any frameworks you wish to create your front-end, such as Streamlit, Flask/HTML, Dash, Gradio etc.  For the module projects you are not required to deploy your demo on the cloud (you may run locally), although for practice I encourage you to do so.
 
 ### Options for approaching project
 There are two options on how to approach the project:  
@@ -30,11 +32,11 @@ There are two options on how to approach the project:
 2)	Alternatively, you may choose to work on an existing dataset or problem which others have worked on (e.g. you find a dataset on Kaggle).  If you do work on an existing problem, you must explain and show what is new and novel about your approach relative to previous approaches.  You should also make sure to reference the previous approaches you reviewed.  Your approach should either result in state-of-the-art (SOTA) performance or close to it, OR provide greater insight into the problem (e.g. better explainability) as compared to previous approaches.
     - For example, suppose you find an open source dataset of medical chest xray images and several references of disease classification models using the data.  You take a different approach to modeling it by using a computer vision model to extract certain features from the images and then feeding those into a decision tree model.
 
-Your code must be written in Python, and you are free to use any libraries you wish.  Although we will use PyTorch in class, you are welcome to use Tensorflow/Keras for the project.  Although you may use Jupyter Notebooks for the exploration phase of your project, your final submission must be in the form of Python scripts, organized as described below.  
+Your code must be written in Python, and you are free to use any libraries you wish.  Although we will use PyTorch in class, you are welcome to use Tensorflow/Keras for the project.  Although you may use Jupyter Notebooks for the exploration phase of your project, **your final submission must be in the form of Python scripts**, organized as described below.  
 
 ## Project Deliverables
 The final deliverables for each module project include:  
-1) 10 minute maximum presentation including the following:  
+1) 15 minute maximum presentation including the following:  
     - Problem you are addressing  
     - Data source(s)
     - Review of relevant previous efforts and literature (if existing dataset)
@@ -42,14 +44,18 @@ The final deliverables for each module project include:
     - Your modeling approach
         - Data processing pipeline  
         - Models evaluated and model selected (must include at least 1 non deep learning model and 1 deep learning model - see details above)
-    - Either visualizations of the output (graphs) and/or a demo of your project  
+    - Demo of your project's visual interface (Streamlit, HTML, Dash, Gradio etc)  
     - Results and conclusions
-2) Submitted link to a public or private GitHub repo containing your code.  Code should be organized in the following structure.  Be sure to include a requirements.txt file and a README describing the project and how to run it.  You must either include the data in your repo if it is small enough or provide a link to it along with the original source.
+2) Submitted link to a public or private GitHub repo containing your code.  Code should be organized in a structure similar to the below.  Be sure to include a requirements.txt file and a README describing the project and how to run it.  You must either include the data in your repo if it is small enough or provide a link to it along with the original source.
 
 ### Project repo structure
 Your project repo should be organized similar to the below structure.  You may deviate from the below structure if you wish, but make sure you have at least the main components (README, requirements.txt, main.py, helper scripts, model(s), data).  You may also add additional files/directories if needed, e.g. dockerfile, database or html/css.
 
-Note: if you use Colab Pro for your project, your main file can be a notebook file (`main.ipynb` instead of `main.py`) which accesses your data, imports modules and runs your project.  Be sure not to accidentally include any secrets in this file.
+Notes:  
+- If you use Colab Pro for your project, your main file can be a notebook file (`main.ipynb` instead of `main.py`) which accesses your data, imports modules and runs your project.  If you use a notebook as your main file, it should NOT include any code other than importing your scripts and running them.  Be sure not to accidentally include any secrets in this file.  
+- If you use code that you did not write yourself, you MUST provide attribution at top of the script file to the original author and a link to their repo 
+- All code should be organized in classes and functions.  There should be NO loose code lines in any of the repo files 
+- Code should be clear and commented.  Use descriptive variable names and docstrings for all classes and functions.  Include code comments where needed
 
 ```
 ├── README.md               <- description of project and how to set up and run it
@@ -80,10 +86,11 @@ Your project will be graded on the following criteria.  Note that there are no s
     - Analysis of your performance relative to previous approaches  
     - Discussion of deep learning approach vs. non deep learning approach
     - Understandable, descriptive demo or visualizations of outputs/performance  
-- **20% project code submission**  
+- **30% project code submission**  
     - Code organization - well organized and includes all necessary files to run the project
     - Code documentation - code is well commented and readable, and project contains descriptive readme file
-- **10% team peer evaluation**  
-    - After the project each member of the team will anonymously evaluate the contribution of each other member by selecting from two choices: 1) "member contributed equally to the project", or 2) "member did not contribute sufficiently to the project".  If ALL other team members rate your contribution to the project as "member did not contribute sufficiently to the project", you will receive a 0 on this component.  Otherwise, you will receive full credit (10% of total grade)
+
+## Expectations
+I expect that everyone will contribute roughly equal effort and time to the project.  You may choose to split up the work as you wish, but everyone on the team should write at least some code.  I also expect that you will be professional in your team work and treat each other with respect.  Note that I reserve the right to make adjustments to your final grade based on poor peer feedback from your team members for anyone who does not pull their weight or has a bad attitude.  
 
 Have fun, and good luck!

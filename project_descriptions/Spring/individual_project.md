@@ -24,7 +24,7 @@ For your final deliverable you may choose whichever of the above approaches work
 
 Your code must be written in Python, and you are free to use any libraries you wish.  Although we will use PyTorch in class, you are welcome to use Tensorflow/Keras for the project.  Although you may use Jupyter Notebooks for the exploration phase of your project, your final submission must be in the form of Python scripts, organized as described below.  
 
-For the individual project, you must also create a working, interactive proof-of-concept application, which must be publicly accessible via internet until 48 hours after the last day of final exams.  You may use any frameworks you wish to create your front-end, such as Flask, Streamlit, or Dash.  
+For the individual project, you must also create a working, interactive proof-of-concept application, which must be publicly accessible via internet until 48 hours after the last day of final exams.  You may use any frameworks you wish to create your front-end, such as Flask, Streamlit, or Dash.  Your application must be deployed on GCP, Azure, or AWS.
 
 ## Final Project Deliverables
 The final deliverables for the individual project include:  
@@ -39,10 +39,16 @@ The final deliverables for the individual project include:
     - Brief demo of your project  
     - Results and conclusions
 2) Submitted link to a public or private GitHub repo containing your code.  Code should be organized in the below structure.  Be sure to include a requirements.txt file and a README.md describing the project and how to run it.
-3) Submitted link to a working, publicly accessible web or mobile interface of your application deployed on a cloud platform (e.g. GCP, AWS, Azure, Heroku, Render etc)
+3) Submitted link to a working, publicly accessible web or mobile interface of your application deployed on a cloud platform (GCP, AWS, Azure)
 
 ### Project repo structure
 Your project repo should be organized similar to the below structure.  You may choose to deviate from the below (e.g. you may have more or less script files or data directories), but make sure each main component is included somewhere.  You may also add additional files/directories if needed, e.g. dockerfile, database or html/css).
+
+Notes:  
+- There should be no jupyter notebooks anywhere other than the 'notebooks' directory
+- If you use code that you did not write yourself, you MUST provide attribution at top of the script file to the original author and a link to their repo 
+- All code should be organized in classes and functions.  There should be NO loose code lines in any of the repo files 
+- Code should be clear and commented.  Use descriptive variable names and docstrings for all classes and functions.  Include code comments where needed
 
 ```
 ├── README.md               <- description of project and how to set up and run it
@@ -67,7 +73,7 @@ Your project repo should be organized similar to the below structure.  You may c
 Beginning Week 6, each week you are required to submit a 1-3 minute video progress update.  You must describe the progress you've made during the week and SHOW progress - either by displaying what your code does that you have written during the week, or (in the later stages) showing early prototypes of your app.  **The weekly progress updates count for 5% of your total course grade.**  For each update that you do not submit on time, you will lose -0.5%.  Weekly updates will be submitted via Ed Discussions.  You must create a new thread for your project, and each week you will post your weekly update video link as a response/comment on your thread.  Weekly updates are due BEFORE the start of class the following week (e.g. Week 6 update is due before start of Week 7 class).
 
 ## "Demo Day" Final Presentation
-The course project will culminate in a virtual "Demo Day" (a la TechStars) via Zoom at the end of the semester.  This will be a public event where we will invite other AIPI faculty members and friends of the program.  You are also welcome to invite your family and friends to tune in live to watch your presentation/demo!  It should be a fun event.
+The course project will culminate in a virtual "Demo Day" (a la TechStars) via Zoom at the end of the semester.  You are also welcome to invite your family and friends to tune in live to watch your presentation/demo!  It should be a fun event.
 
 ## Final Project Grading
 Your individual project deliverables (25% of course grade) will be graded on the following criteria.  Note that there are no specific numeric performance targets that are used in grading the projects - you model's performance is related to the problem and data and so will differ widely across teams/projects.
