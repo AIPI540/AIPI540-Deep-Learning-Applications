@@ -26,6 +26,9 @@ While [Colab](https://research.google.com/colaboratory/faq.html) is useful for y
  1) Colab is not designed to deploy code into production.  Since you are required to develop an interface for your course project, Colab will not be able to support your production app.  Note: you may be able to train your model on Colab and deploy on something else like Heroku.  
  2) You may find that you need a dedicated GPU instance to train on large datasets for your course project, and perhaps for your module projects as well (depending on what data you are using).  Colab will disconnect after 12 hours or ~30 min of idling (and you will lose your unsaved data). A Azure VM instance will not disconnect untill you stop it (or run out of credits).  Azure also allows you to choose the type and number of GPUs to use, while Colab does not.
  3) A Azure VM instance's disk space allows you to deal with larger datasets. In Colab's case, you will have to save all your data and models to Google Drive.
+ 
+ ## Demo Videos:
+ https://drive.google.com/drive/folders/1g-RfQbwbhJQSJ-wN-w6DvWhSomiKoGBK?usp=sharing 
 
 ## Sign Up for Azure
 Azure provides $100 free credits to verified students when you sign up using your university email address.  The first step is to sign up for [Azure for Students](https://signup.azure.com/studentverification?offerType=1&correlationId=2279b21a2f344b4a9b51ab1b5b6ba481).  Select your Duke account and then log in with your NetID.  Complete the 'About You' page and then enter your phone number in the 'Identity verification by phone' screen.  Review the agreement and hit 'sign up'.  

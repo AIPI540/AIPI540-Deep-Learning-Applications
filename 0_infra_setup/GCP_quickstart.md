@@ -37,6 +37,9 @@ While [Colab](https://research.google.com/colaboratory/faq.html) is useful for y
  1) Colab is not designed to deploy code into production.  Since you are required to develop an interface for your course project, Colab will not be able to support your production app.  Note: you may be able to train your model on Colab and deploy on something else like Heroku.  
  2) You may find that you need a dedicated GPU instance to train on large datasets for your course project, and perhaps for your module projects as well (depending on what data you are using).  Colab will disconnect after 12 hours or ~30 min of idling (and you will lose your unsaved data). A GCP VM instance will not disconnect untill you stop it (or run out of credits).  GCP also allows you to choose the type and number of GPUs to use, while Colab does not.
  3) A GCP VM instance's disk space allows you to deal with larger datasets. In Colab's case, you will have to save all your data and models to Google Drive.
+ 
+ ## Demo videos:
+ https://drive.google.com/drive/folders/1qFN08xrple4VLsuS2XhQ-ANrWvEqSc4K?usp=sharing 
 
 ## Create and Configure Your Account
 
