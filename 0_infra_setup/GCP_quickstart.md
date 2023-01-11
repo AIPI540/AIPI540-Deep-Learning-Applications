@@ -44,15 +44,10 @@ While [Colab](https://research.google.com/colaboratory/faq.html) is useful for y
 ## Create and Configure Your Account
 
 **You should use your personal Gmail account for GCP, not your Duke account, because Duke University managed email accounts do not support creating a new project.** 
-
-For the class project, we offer students **$50 GCP coupons** for each student to use Google Compute Engine for developing and testing your
-implementations. When you first sign up on GCP, you will have $300 free credits.
-
-If your credits ends up not being enough, contact course staff on Piazza. We will also send out forms for extra GCP credit request form later in the quarter.
  
 This tutorial lists the necessary steps of working on the projects using Google Cloud. Please take your time and go through each step in order - you may find that it can take up to an hour to complete.  If you have any questions please post them in the proper Ed Discussions channel.
 
-When you first sign up for GCP using your Gmail address you will receive $300 free credits from Google to use for storage and compute expenses.  In order to use your credits for GPU access, note that you need to UPGRADE your account into a full account (and enter your credit card) - more on this later.  Additionally, for AIPI 540 students I am able to provide coupons for an extra **$50 GCP credits**, so you will have $350 of credits to spend during the semester before you have to pay out of your own pocket for anything.  This should be enough to get you through your work this semester, ***as long as you do not forget to stop your instances when done work***, otherwise the instance will continue to spend your credits even when you are not using it.
+When you first sign up for GCP using your Gmail address you will receive $300 free credits from Google to use for storage and compute expenses.  In order to use your credits for GPU access, note that you need to UPGRADE your account into a full account (and enter your credit card) - more on this later.  This should be enough to get you through your work this semester, ***as long as you do not forget to stop your instances when done work***, otherwise the instance will continue to spend your credits even when you are not using it.
 
 ### Sign Up for GCP
 
@@ -78,22 +73,6 @@ You should receive $300 credits from Google when you first sign up with **Person
 3. **Upgrade your account** in order to use GPUs following these [instructions](https://cloud.google.com/free/docs/gcp-free-tier#how-to-upgrade). Otherwise [Google Cloud Free Tier](https://cloud.google.com/free/docs/gcp-free-tier#how-to-upgrade) does not allow you to spend your credits on GPU usage.
 ![](/.img/upgrade-1.png)
 ![](/.img/upgrade-2.png)
-
-## Get the AIPI GCP credits 
-
-NOTE: You should have created and logged in your GCP account registered with your personal gmail account by now. 
-
-1. I will share the link with you to access the $50 AIPI credits. **It requires your Duke email to receive the credits**. (These credits can be **applied to your GCP account registered with your personal Gmail**. )
-![](/.img/get-coupon.png)
-
-2. After submission, you should receive a email from GCP with a link to confirm your email address. Click the link to verify your Duke email.
-![](/.img/email-confirmation.png)
-
-3. You will soon receive another email from GCP with a link that applies the $50 credits to your account. That link will jump to your [Billing](https://console.cloud.google.com/billing) page where you should see you have linked to your AIPI billing account with $50 free credits. 
-![](/.img/accept-credits.png)
-![](/.img/billing-page.png)
-
-4. Google Cloud does not allow you to combine credits (i.e. you cannot combine the $300 credits and the $50 credits), so instead what you need to do is to use the $300 credits first that you receive upon sign-up, and then switch to the AIPI billing account to use the $50 credits.  You can see how to switch billing accounts in the [GCloud documentation](https://cloud.google.com/billing/docs/how-to/modify-project#change_the_billing_account_for_a_project).
 
 ## Request an Increase in GPU Quota
 
