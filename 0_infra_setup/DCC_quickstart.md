@@ -23,24 +23,27 @@ The below steps provide a recommended workflow for one time setup of resources a
 
 a). Login to the DCC using `ssh netid@dcc-login.oit.duke.edu`, (note: VPN is not required, but MFA **is required**). 
 
-    kk338@CDSS-5630 ~ % ssh kk338@dcc-login.oit.duke.edu
-    Password: 
-    Duo two-factor login for kk338
+```
+kk338@CDSS-5630 ~ % ssh kk338@dcc-login.oit.duke.edu
+Password: 
+Duo two-factor login for kk338
 
-    Enter a passcode or select one of the following options:
+Enter a passcode or select one of the following options:
 
-    1. Duo Push to XXX-XXX-4007
-    2. Phone call to XXX-XXX-4007
-    3. Phone call to XXX-XXX-9784
-    4. SMS passcodes to XXX-XXX-4007 (next code starts with: 2)
+1. Duo Push to XXX-XXX-4007
+2. Phone call to XXX-XXX-4007
+3. Phone call to XXX-XXX-9784
+4. SMS passcodes to XXX-XXX-4007 (next code starts with: 2)
 
-    Passcode or option (1-4): 1
-    Success. Logging you in...
-    Last login: Tue Dec 21 11:07:41 2021 from xxx
-    ################################################################################
-    # MOTD                                                                         # 
-    # My patch window is wednesday 03:00                                           # ################################################################################
-    kk338@dcc-login-03  ~ $
+Passcode or option (1-4): 1
+Success. Logging you in...
+Last login: Tue Dec 21 11:07:41 2021 from xxx
+################################################################################
+# MOTD                                                                         # 
+# My patch window is wednesday 03:00                                           #
+################################################################################
+kk338@dcc-login-03  ~ $
+```
 
 b). Installing Miniconda
 
@@ -48,10 +51,10 @@ Students are welcome to install software in their `hpc/group/aipi540-s23/<net_id
 
 Miniconda installation sample:
 ```
-    ln -s /hpc/group/aipi540-s23 aipi540-s23
-    mkdir -p /hpc/group/aipi540-s23/<netid>
-    wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-    sh Miniconda3-latest-Linux-x86_64.sh
+ln -s /hpc/group/aipi540-s23 aipi540-s23
+mkdir -p /hpc/group/aipi540-s23/<netid>
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+sh Miniconda3-latest-Linux-x86_64.sh
 ```
 
 and then follow the instructions. The place to give as Miniconda install location should be `/hpc/group/aipi540-s23/<netid>/miniconda3`. It will offer to update your ~/.bashrc, (init) which is what you want. Log out log back in and then you can run conda install, pip install, create environments, etc.
