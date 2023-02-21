@@ -26,6 +26,15 @@ Your code must be written in Python, and you are free to use any libraries you w
 
 For the individual project, you must also create a working, interactive proof-of-concept application, which must be publicly accessible via internet until 48 hours after the last day of final exams.  You may use any frameworks you wish to create your front-end, such as Flask, Streamlit, or Dash.  Your application must be deployed on GCP, Azure, or AWS.
 
+## Project Proposal
+Your project proposal will be a written document (2 page max) describing what you plan to work on for your final project.  It should focus on the following:  
+- What problem you are going to work on  
+- Brief description of relevant previous efforts (research papers and/or commercial products)  
+- The data sources you plan to use  
+- How your proposed approach will differ from previous approaches - what do you intend for your unique contribution to be in solving this problem?  
+- Your project plan - include gantt chart and major milestones  
+- What will be the final deliverable from your project (web app, mobile app etc) and what will it do
+
 ## Final Project Deliverables
 The final deliverables for the individual project include:  
 1) 15-minute maximum presentation (there is a hard stop!) including the following:  
