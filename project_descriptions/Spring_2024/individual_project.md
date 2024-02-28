@@ -39,7 +39,7 @@ Your project proposal will be a written document (2 page max) describing what yo
 
 ## Final Project Deliverables
 The final deliverables for the individual project include:  
-1) 15-minute maximum presentation (there is a hard stop!) including the following:  
+1) 15-minute maximum presentation (there is a hard stop!) submitted as a video link on Canvas (YouTube, WarpWire, Panopto). The presentation should include the following:  
     - Problem you are addressing  
     - Data source(s)
     - Review of relevant previous efforts and literature (if existing dataset)
@@ -50,8 +50,14 @@ The final deliverables for the individual project include:
         - Comparison to naive approach
     - Brief demo of your project  
     - Results and conclusions
-2) Submitted link to a public or private GitHub repo containing your code.  Code should be organized in the below structure.  Be sure to include a requirements.txt file and a README.md describing the project and how to run it.
-3) Submitted link to a working, publicly accessible web or mobile interface of your application deployed on a cloud platform (GCP, AWS, Azure)
+2) Demo Day "Pitch" (maximum 5 minutes and 3 slides, there is a hard stop). The pitch will be live via Zoom at the end of the semester and will be open to the public (so you can invite family and friends). The pitch should focus on a demonstration to a wider audience and should connsist of:
+    - Problem you are addressing/motivation (1 slide)
+    - Brief overview of approach (1 slide)
+    - Brief demo of your project
+    - Results/conclusions/interesting findings (1 slide)
+Note: Since this is open to the public, we recommend not sharing anything that you don't want to be prior art. For the majority of projects, this should not be an issue. However, if you are planning to extend your idea in a startup let's chat about options.
+3) Submitted link to a public or private GitHub repo containing your code.  Code should be organized in the below structure.  Be sure to include a requirements.txt file and a README.md describing the project and how to run it.
+4) Submitted link to a working, publicly accessible web or mobile interface of your application deployed on a cloud platform (GCP, AWS, Azure)
 
 ### Project repo structure
 Your project repo should be organized similar to the below structure.  You may choose to deviate from the below (e.g. you may have more or less script files or data directories), but make sure each main component is included somewhere.  You may also add additional files/directories if needed, e.g. dockerfile, database or html/css).
@@ -90,7 +96,7 @@ The course project will culminate in a virtual "Demo Day" (a la TechStars) via Z
 ## Final Project Grading
 Your individual project deliverables (25% of course grade) will be graded on the following criteria.  Note that there are no specific numeric performance targets that are used in grading the projects - you model's performance is related to the problem and data and so will differ widely across teams/projects.
 
-- **60% project presentation**
+- **60% project presentation and demo presentation**
     - Well-defined problem and motivation - what problem are you solving and why?
     - Clear description of your data, data pipeline, modeling approach (mention both non-DL and DL), and model evaluation approach
     - Brief description of previous approaches to solving the problem and what is new and novel about your approach
