@@ -7,12 +7,16 @@ The directory contains the following demo notebooks (which should be reviewed in
 - **CNNs**  
     - **cnn_basics**  
         - introduces the use of convolutional neural networks for image classification  
+    - **cnn_basics_tf**  
+        - introduces the use of convolutional neural networks for image classification in TensorFlow
     - **cnn_w_tensorboard**  
         - demonstrates the use of TensorBoard with PyTorch to track and visualize metrics on the model training and performance  
     - **simple_resnet**  
         - introduces the ResNet skip-connection and how to develop a custom ResNet model in PyTorch
     - **transfer_learning**  
         - demonstrates how to use pre-trained models and conduct fine tune training for image classification problems  
+    - **transfer_learning_tf**  
+        - demonstrates how to use pre-trained models and conduct fine tune training for image classification problems in TensorFlow  
     - **xrays_example**  
         - example of how to create a custom PyTorch Dataset to load images and labels stored in non-standard formats and how to work with medical DICOM files
 
@@ -26,6 +30,10 @@ The directory contains the following demo notebooks (which should be reviewed in
 - **model_interpretation**  
     - **CAM_xrays**  
         - example of how to use Class Activation Maps to improve interpretability of model predictions
+
+- **GANS**  
+    - **ganss**  
+        - demonstrate creation and use of Generative Adversarial Networks
 
 
 
