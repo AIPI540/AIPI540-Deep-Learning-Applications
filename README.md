@@ -1,17 +1,12 @@
 ![](https://storage.googleapis.com/aipi_datasets/Duke-AIPI-Logo.png)
 
 # AIPI 540: Deep Learning Applications 
-Welcome to the GitHub repo for AIPI 540: Deep Learning Applications at Duke University.  This repo accompanies the Deep Learning Applications course, which is part of [Duke's AI Master of Engineering program](https://ai.meng.duke.edu).  The course was designed by [Jon Reifschneider](https://ai.meng.duke.edu/faculty/jon-reifschneider). The Spring 2024 section is taught by [Brinnae Bent](https://scholars.duke.edu/person/brinnae.bent). Please see the course Canvas site for the course syllabus.
+Welcome to the GitHub repo for AIPI 540: Deep Learning Applications at Duke University.  This repo accompanies the Deep Learning Applications course, which is part of [Duke's AI Master of Engineering program](https://ai.meng.duke.edu).  
+The course was originally designed by [Jon Reifschneider](https://ai.meng.duke.edu/faculty/jon-reifschneider) and modified by [Dr. Brinnae Bent](https://scholars.duke.edu/person/brinnae.bent). Please see the course Canvas site for the course syllabus.
 
 This course contains three modules on the key areas of application of deep learning: computer vision, natural language processing, and recommendation systems.  Each module begins with a discussion of the theory behind the main techniques and architectures used in the application area and why they work, following by hands-on exploration of the key applications in Python.  Students complete a team project during each module as well as an individual course-long project which culminates in a prototype web app incorporating deep learning.
 
 This repo contains notebooks with code examples which accompany the course.  The purpose of the notebooks is to demonstrate the application of many of the methods and model architectures we cover in the course.  For purposes of demonstration, most of the notebooks use small illustrative example datasets, but the approaches shown can be applied to tackle unstructured data problems at scale.
-
-If you are in the course or following along with the code examples, the course sessions follow this order:  
-- Week 1: Infra setup and intro to neural networks  
-- Weeks 2-5: Computer vision  
-- Weeks 6-10: Natural language processing  
-- Weeks 11-14: Recommendation systems
 
 ## Repo Organization
 This repository contains the following directories:  
@@ -21,7 +16,6 @@ This repository contains the following directories:
 - **3_nlp**: demo examples of main natural language processing tasks 
 - **4_recommender_systems**: demo examples of recommendation systems  
 - **5_deployment**: simple examples of deploying web apps on the cloud
-- **project_descriptions**: requirements for group and individual projects
 
 ## Getting Started
 Before you can run the demo notebooks or work on your projects, you will need to get your computing environment set up.  Because most of the applications we cover will require GPU access for training, you will need to set up a cloud compute environment to run them.  You may choose to work entirely in the cloud, or develop locally and sync to your cloud environment through GitHub.
